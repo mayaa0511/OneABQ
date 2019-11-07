@@ -1,0 +1,147 @@
+nav {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0,0,0,0);
+    overflow: hidden;
+    color: #fff;
+    padding-left: 150px;
+    text-align: left;
+    margin: 0;
+    transition: 1s;
+}
+
+li{
+    display: inline-block;
+    padding: 20px
+}
+
+.buttonDonate{
+    margin-left: 750px;
+    background-color: #cc9933;
+    color: #fff;
+    border-radius: 8px;
+}
+.menu{
+    background:transparent;
+}
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+ nav.black ul{
+     background: #000;
+ }
+.menu-icon {
+    width: 100%;
+    background: #fff;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #000;
+    display: none;
+}
+
+.splashPage{
+        background-image: url("contact-header-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 650px;
+        margin: 0 auto;  
+}
+
+.heading{
+    padding-top: 200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.text{
+    
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+.logo {
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    height: 50px;
+    width: auto;
+}
+
+.contactForms{
+    background-color: #cc9933;
+    background-image: url("abq-skyline.png");
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 750px;
+    padding-top: 30px;
+    padding-left: 99px;
+}
+
+.getIn{
+    color: #fff;
+}
+
+input{
+    background-color: #0000;
+    border-radius: 8px;
+    border: solid white 2px;
+}
+
+#lastName{
+    margin-left: 10px;
+}
+
+#message{
+    height: 100px;
+    width: 370px;
+}
+
+#email{
+    width: 370px;
+}
+
+#phoneNumber{
+    width: 370px;
+}
+
+.send{
+    background-color: #CC3333;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.footer{
+    background-image: url("footer-bg.png");
+    background-position: bottom;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 350px;
+}
+.links{
+    text-align: right;
+}
+
+h4{
+    color: #cc9933;
+}

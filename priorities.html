@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>oneabq</title>
+  <link rel="stylesheet" href="prioritiesdesign.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <div class="navBar">
+      <header>
+
+        <nav> 
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+
+
+          <div class="oneabqlogo">
+            <img src="abqhoriz.png" class="logo">
+          </div>
+         <div class="menu">
+           <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Priorities</a></li>
+              <li><a href="#">Contact</a></li>
+              <button class="buttonDonate">Donate</button>
+           </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <div class="splashPage">
+    <h1 class="heading">Our Priorities</h1>
+    <p class="text">Over the next few years, the One Albuqueque Fund<br>aims to fund critical programs to address some of the<br>
+        core challenges our city faces.</p>
+    </div>
+    <div class="campaign">
+        <img src="policeIcon.png" class="policeIcon">
+        <h2 class="heading2"> Officer <br>Recruitment</h2>
+        <p class="text2">Meeting the needs of our community to hire<br>
+             hundreds of new officers will require targeted<br>
+            marketing campaigns highlighting the benefits<br>
+            of joining a reformed Albuquerque Police<br>
+            Department as well as the benefits of joining<br>
+            the Albuquerque community at-large. This<br>
+             includes partnering with local entities to entice<br>
+            new recruits with incentives such as short-term<br>
+            housing loans, signing bonuses, day-care<br>
+             options, and moving support.</p>
+    </div>
+
+   
+    
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+          $(".menu-icon").on("click", function() {
+            $("nav ul").toggleClass("showing");
+          });
+        });
+      
+      
+        $(window).on("scroll", function() {
+          if($(window).scrollTop()) {
+            $("nav").addClass("black");
+          }
+          else {
+             $("nav").removeClass("black");
+          }
+        })
+    </script>
+
+</body>
+</html>

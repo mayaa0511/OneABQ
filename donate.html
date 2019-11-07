@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>oneabq</title>
+  <link rel="stylesheet" href="donate.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <div class="navBar">
+      <header>
+
+        <nav> 
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+
+
+          <div class="oneabqlogo">
+            <img src="abqhoriz.png" class="logo">
+          </div>
+         <div class="menu">
+           <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Priorities</a></li>
+              <li><a href="#">Contact</a></li>
+              <button class="buttonDonate">Donate</button>
+           </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+<div class="donateSplashPage">
+    <h1 class="heading">Make a Donation</h1>
+    <p class="text">Over the next few years, the One Albuquerque Fund<br>
+    aims to fund critical programs to address some of the<br>
+     core challenges our city faces.</p>
+</div>
+<div class="donateOptions">
+    <div class="row">
+        <div class="col-sm-3"> 
+        </div>
+        <div class="col-sm-3">
+            <h2>Officer Recruitment</h2>
+            <p>Your donation to the officer recruitment<br>
+            fund will help the Albuquerque Police<br>
+            Department recruit more officers to protect the city.</p>
+        </div>
+        <div class="col-sm-3">
+            <h2>Youth Opportunity</h2>
+            <p>Your donation to the officer recruitment<br>
+            fund will help the Albuquerque Police<br>
+            Department recruit more officers to<br>
+            protect the city.</p>
+        </div>
+        <div class="col-sm-3">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3"> 
+        </div>
+        <div class="col-sm-3">
+                    <h2>Workforce Training</h2>
+                    <p>Your donation to the officer recruitment<br>
+                    fund will help the Albuquerque Police<br>
+                    Department recruit more officers to protect the city.</p>
+        </div>
+        <div class="col-sm-3">
+                    <h2>Housing Vouchers</h2>
+                    <p>Your donation to the officer recruitment<br>
+                    fund will help the Albuquerque Police<br>
+                    Department recruit more officers to protect the city.</p>
+        </div>
+        <div class="col-sm-3">
+        </div>
+    </div>
+    <button class="donating">Donate</button>
+</div>
+<div class="footer">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>CONTACT US</h4>
+                <p>onealbuquerque@cabq.com</p>
+                <p>+1.505.768.3000</p>
+            </div>
+            <div class="col-md-4">
+                <img src="abqhoriz.png" class="footerLogo"> 
+            </div>
+            <div class="col-md-4 , links">
+                <p>Home</p>
+                <p>About</p>
+                <p>Priorities</p>
+                <p>Contact</p>
+                <p>Donate</p>
+            </div>
+        </div>
+       <div class="row">
+        <div class="col-md-2"></div>
+           <div class="col-md-8">
+            <p>2019 City of Albuquerque | All Rights Reserved | The offical website for the One Albuquerque Fund</p>
+       </div> 
+        <div class="col-md-2"></div>
+        </div>
+</div>
+
+
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+      $(".menu-icon").on("click", function() {
+        $("nav ul").toggleClass("showing");
+      });
+    });
+  
+  
+    $(window).on("scroll", function() {
+      if($(window).scrollTop()) {
+        $("nav").addClass("black");
+      }
+      else {
+         $("nav").removeClass("black");
+      }
+    })
+</script>
+
+
+</body>
+</html>
